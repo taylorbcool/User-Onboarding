@@ -1,12 +1,12 @@
 import React from 'react';
-import Form from 'Form';
+import FormikUserForm from './components/Form';
 import ReactDom from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <FormikUserForm />
     </div>
   );
 }
